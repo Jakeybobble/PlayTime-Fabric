@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "playtime_count",
+  "version": "${version}",
+  "name": "Playtime Counter (Fabric)",
+  "description": "Displays session time in title and pause menu.",
+  "authors": [
+    "Jakeybobble"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/playtime_count/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jakeybobble.playtime.PlayTime"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "playtime_count.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3"
+  }
+}
