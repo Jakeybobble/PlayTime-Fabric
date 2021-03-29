@@ -1,2 +1,2 @@
 # PlayTime-Fabric
- Minecraft Fabric mod which displays time since client was opened.
+This is a client-side Minecraft mod for Fabric that displays time since the client was opened.
